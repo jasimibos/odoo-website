@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="boec_custom_layout" inherit_id="website.layout" name="Custom Layout">
+        <xpath expr="//div[@id='wrapwrap']/main" position="after">
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8"/>
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                    <title>BOEC</title>
+                    <link rel="shortcut icon" type="image/x-icon" href="/theme_boec/static/src/images/logo/logo.png"/>
+
+                    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+                    <link rel="stylesheet"
+                          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+                    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"/>
+<!--                    <link rel="stylesheet" type="text/css" href="/ibos_theme/static/src/css/bootstrap.min.css"/>-->
+                    <link rel="stylesheet" type="text/css" href="/ibos_theme/static/src/css/global.css"/>
+                    <link rel="stylesheet" type="text/css" href="/ibos_theme/static/src/css/additional.css"/>
+                    <link rel="stylesheet" type="text/css" href="/ibos_theme/static/src/css/style.css"/>
+                    <link rel="stylesheet" type="text/css" href="/ibos_theme/static/src/css/style2.css"/>
+                    <link rel="stylesheet" type="text/css" href="/ibos_theme/static/src/css/responsive.css"/>
+                    <!--JQuery-->
+
+                </head>
+                <body class="">
+                    <!-- Preloader -->
+                    <div id="loader-wrapper">
+                        <div class="loading" id="loading"></div>
+                        <div class="loader-section section-left"/>
+                        <div class="loader-section section-right"/>
+                    </div>
+                </body>
+
+                <script type="text/javascript" src="/ibos_theme/static/src/js/jquery.slim.min.js"/>
+<!--                <script type="text/javascript" src="/ibos_theme/static/src/js/bootstrap.bundle.min.js"/>-->
+                <script type="text/javascript" src="/ibos_theme/static/src/js/owl.carousel.js"/>
+                <script type="text/javascript" src="/ibos_theme/static/src/js/owl.carousel.min.js"/>
+                <script type="text/javascript" src="/ibos_theme/static/src/js/jquery.countdown.min.js"/>
+                <script type="text/javascript" src="/ibos_theme/static/src/js/custom.js"/>
+
+
+                <script>
+
+                </script>
+            </html>
+        </xpath>
+    </template>
+</odoo>

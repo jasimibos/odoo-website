@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="new_footer" inherit_id="website.layout">
+        <xpath expr="//footer" position="replace">
+            <footer>
+                <!-- Top Footer -->
+                <section class="footer-area bg-secondary">
+                    <div class="container">
+                        <div class="footer-wrapper">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-sm-12">
+                                    <div class="f-col">
+                                        <div class="footer-logo">
+                                            <img width="104px" src="/ibos_theme/static/src/images/footer/logo_invert.svg" alt=""/>
+                                        </div>
+                                        <div class="social-icon">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-facebook"    ></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-twitter"    ></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-linkedin"    ></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-instagram"    ></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-github"    ></i>
+                                                </a>
+                                            </li>
+                                        </div>
+                                        <a href="#" class="btn footer-btn mt-4 d-none">
+                                            <span>Contact Us</span>
+                                            <span class="b-icon">
+                                                <i class="fa fa-arrow-right"  style=""></i>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12">
+                                    <div class="f-col">
+                                        <div class="f-heading">
+                                            <h6>Extras</h6>
+                                        </div>
+                                        <ul>
+
+
+                                            <li>
+                                                <a href="https://apps.odoo.com/apps/modules/browse?author=iBOS%20Limited" target="_blank">Our Apps</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://apps.odoo.com/apps/modules/browse?author=iBOS%20Limited" target="_blank">Our Themes</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12">
+                                    <div class="f-col">
+                                        <div class="f-heading">
+                                            <h6>About Us</h6>
+                                        </div>
+                                        <ul>
+                                            <li>
+                                                <a href="http://localhost:8069/service">All services</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://localhost:8069/about-us">About Us</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://localhost:8069/contactus">Contact Us</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Privacy Policy</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Terms of Use</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12">
+                                    <div class="f-col">
+                                        <div class="f-heading">
+                                            <h6>Contact Us</h6>
+                                        </div>
+                                        <ul>
+                                            <li class="f-contact">
+                                                <i class="lnr lnr-map-marker"></i>
+                                                <address>6/2, Kazi Nazrul Islam Rd.Lalmatia, Dhaka- 1207</address>
+                                            </li>
+                                            <li class="f-contact">
+                                                <i class="lnr lnr-phone-handset text-700"></i>
+                                                <a href="tel:+8801703596292">
+                                                    <span>+8801703596292</span>
+                                                </a>
+                                            </li>
+                                            <li class="f-contact">
+                                                <i class="lnr lnr-envelope text-700"></i>
+                                                <a href="mailto:info@ibos.io">
+                                                    <span>info@ibos.io</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Bottom Footer -->
+                <section class="bottom-footer">
+                    <div class="container">
+                        <div class="row py-2">
+                            <div class="col-md-6 text-center text-body text-md-left">
+                                <span>Copyright ©</span>
+                                <span>iBOS Limited</span>
+                            </div>
+                            <div class="col-md-6 text-center text-body text-md-right text-white">
+                                Design by
+                                <strong>iBOS Limited</strong>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </footer>
+        </xpath>
+    </template>
+</odoo>
